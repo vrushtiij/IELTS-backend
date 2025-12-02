@@ -13,10 +13,10 @@ app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(hours=1)
 jwt = JWTManager(app)
 
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="",  
-    database="ielts-mock"
+    host="sql12.freesqldatabase.com",
+    user="sql12810293",
+    password=" nGIR7sjw86",  
+    database="sql12810293"
 )
 cursor = db.cursor()
 
